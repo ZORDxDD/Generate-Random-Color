@@ -16,3 +16,9 @@ Array.from(boxes).forEach(e=>
         e.style.color=getRandomColor()
     }
 )
+
+let button =document.getElementById("btn")
+button.addEventListener("click",()=>{
+    document.querySelector(".btn").innerHTML="dhemna lawde ka baal"
+})
+
